@@ -23,7 +23,7 @@ import statsmodels.stats.multitest as mt
 DB_TYPE = "mysql"
 
 #DB INFO:
-USER = getpass.getuser()
+USER = 'izahn'
 
 MAX_ATTEMPTS = 5 #max number of times to try a query before exiting
 PROGRESS_AFTER_ROWS = 5000 #the number of rows to process between each progress updated
@@ -39,7 +39,7 @@ MAX_TO_DISABLE_KEYS = 100000 #number of groups * n must be less than this to dis
 MAX_SQL_PRINT_CHARS = 256
 
 ##Corpus Settings:
-DEF_CORPDB = 'dla_tutorial'
+DEF_CORPDB = 'izahn_dla_tutorial'
 DEF_CORPTABLE = ''
 DEF_CORREL_FIELD = 'user_id'
 DEF_MESSAGE_FIELD = 'message'
@@ -101,7 +101,7 @@ DEF_MIN_FREQ = int(1) #min frequency per group to keep (don't advise above 1)
 DEF_P_OCC = float(.01) #percentage of groups a feature must appear in, to keep it
 DEF_PMI = 3.0
 DEF_MIN_FEAT_SUM = 0 #minimum sum of feature total to keep
-DEF_LEXICON_DB = 'dlatk_lexica'
+DEF_LEXICON_DB = 'izahn_dlatk_lexica'
 DEF_FEAT_TABLE = 'feat$1gram$messages_en$user_id$16to16$0_01'
 DEF_COLLOCTABLE = 'test_collocs'
 DEF_COLUMN_COLLOC = "feat"
